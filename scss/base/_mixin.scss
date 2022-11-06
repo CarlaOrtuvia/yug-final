@@ -1,0 +1,14 @@
+@mixin mobile {
+    @media screen and (max-width: 450px) {
+        @content;
+    }
+}
+
+@mixin display-flex {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin flex {
+    display: flex;
+    justify-content: center
+}

@@ -1,0 +1,74 @@
+.imagen-terapia {
+    background-image: url(https://st.depositphotos.com/1004026/4913/v/450/depositphotos_49131133-stock-illustration-seamless-pattern.jpg);
+
+.imagen-quinta {
+    width: 550px;
+    margin-left: 450px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  
+    @include mobile {
+        width: 300px;
+        margin-left: 80px;
+    }
+  
+    }
+}
+
+
+.titulo-accesorio {
+    color:nth($colores, 1);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 55px;
+    margin-bottom: 65px;
+    margin-left: 35px;
+
+    .titulo-terapia {
+@include mobile{
+    margin-left: 15px;
+}
+    }
+}
+.parrafo-explicativo{
+    color:nth($colores, 1);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+.parrafo-siguiente{
+    color:nth($colores, 1);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-bottom: 65px;
+}
+.estilos-carta{
+background-color:nth($colores, 6);
+.estilos-imagenes{
+    box-shadow: 7px 4px 19px -2px rgba(59,80,178,0.73);
+    -webkit-box-shadow: 7px 4px 19px -2px rgba(59,80,178,0.73);
+    -moz-box-shadow: 7px 4px 19px -2px rgba(59,80,178,0.73);
+
+.imagen-carta{
+    height: 215px;
+
+    @include mobile {
+        width: 350px;
+        height: 550px;
+    }
+}
+}
+.pie-carta{
+    background-color:nth($colores, 3);
+}
+}
+.imageLogo{
+    width: 55px;
+    padding: 10px;
+}
+.elementos-carta{
+    display: flex;
+    justify-content: space-around;
+}

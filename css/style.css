@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;1,300&family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor-final {
+  background-color: #3e8e7e;
+  color: #181818;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.contenedor-final .imagen-contactos {
+  width: 55px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.carrousel.index {
+  width: 100%;
+  height: auto;
+  background-image: cover;
+}
+
+.contenedor-texto {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 55px;
+  margin-bottom: 65px;
+}
+@media screen and (max-width: 450px) {
+  .contenedor-texto {
+    width: 450px;
+  }
+}
+.contenedor-texto .titulo-inicial {
+  margin-left: 450px;
+  margin-top: 65px;
+  margin-bottom: 45px;
+}
+@media screen and (max-width: 450px) {
+  .contenedor-texto .titulo-inicial {
+    margin-left: 15px;
+  }
+}
+.contenedor-texto .texto-descripcion {
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 75px;
+}
+
+.bloque-division {
+  background-image: url("https://st.depositphotos.com/1004026/4913/v/450/depositphotos_49131133-stock-illustration-seamless-pattern.jpg");
+  height: 200px;
+  opacity: 0.8;
+  color: #7f8c8d;
+  margin-bottom: 25px;
+}
+.bloque-division .texto-bloque {
+  padding-top: 65px;
+  padding-left: 300px;
+  margin-top: 25px;
+}
+.bloque-division .texto-bloque:hover {
+  animation: cambioForma 6s;
+}
+@keyframes cambioForma {
+  0% {
+    color: #7f8c8d;
+  }
+  15% {
+    color: #225763;
+  }
+  25% {
+    color: #2f89b3;
+    padding-left: 200px;
+    font-size: 44px;
+  }
+  50% {
+    color: #3b50b2;
+    font-size: 46px;
+    padding-left: 198px;
+  }
+  100% {
+    color: #7f8c8d;
+    font-size: 48px;
+    padding-left: 180px;
+    padding-right: 35px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bloque-division .texto-bloque {
+    font-size: 20px;
+    padding-left: 45px;
+    color: black;
+  }
+  .bloque-division .texto-bloque:hover {
+    animation: none;
+  }
+}
+
+.card-footer {
+  background-color: #ededed;
+}
+.card-footer .logo-flor {
+  width: 85px;
+  height: auto;
+}
+
+.formas-contacto {
+  background-color: #225763;
+  color: #41d8bf;
+  display: flex;
+  justify-content: center;
+}
+.formas-contacto .titulo-contacto {
+  margin-top: 15px;
+}
+.formas-contacto .titulo-contacto:hover {
+  animation: cambioColor 8s;
+}
+@keyframes cambioColor {
+  0% {
+    color: #41d8bf;
+  }
+  15% {
+    color: #ededed;
+  }
+  25% {
+    color: #41d8bf;
+  }
+  35% {
+    color: #ededed;
+  }
+  45% {
+    color: #41d8bf;
+  }
+  55% {
+    color: #ededed;
+  }
+  65% {
+    color: #41d8bf;
+  }
+  75% {
+    color: #ededed;
+  }
+  85% {
+    color: #41d8bf;
+  }
+  95% {
+    color: #ededed;
+  }
+  100% {
+    color: #41d8bf;
+  }
+}
+.formas-contacto .img-redes {
+  width: 75px;
+  height: auto;
+  padding: 10px;
+}
+
+.imagen-terapia {
+  background-image: url(https://st.depositphotos.com/1004026/4913/v/450/depositphotos_49131133-stock-illustration-seamless-pattern.jpg);
+}
+.imagen-terapia .imagen-quinta {
+  width: 550px;
+  margin-left: 450px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+@media screen and (max-width: 450px) {
+  .imagen-terapia .imagen-quinta {
+    width: 300px;
+    margin-left: 80px;
+  }
+}
+
+.titulo-accesorio {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 55px;
+  margin-bottom: 65px;
+  margin-left: 35px;
+}
+@media screen and (max-width: 450px) {
+  .titulo-accesorio .titulo-terapia {
+    margin-left: 15px;
+  }
+}
+
+.parrafo-explicativo {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+.parrafo-siguiente {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  margin-bottom: 65px;
+}
+
+.estilos-carta {
+  background-color: #ededed;
+}
+.estilos-carta .estilos-imagenes {
+  box-shadow: 7px 4px 19px -2px rgba(59, 80, 178, 0.73);
+  -webkit-box-shadow: 7px 4px 19px -2px rgba(59, 80, 178, 0.73);
+  -moz-box-shadow: 7px 4px 19px -2px rgba(59, 80, 178, 0.73);
+}
+.estilos-carta .estilos-imagenes .imagen-carta {
+  height: 215px;
+}
+@media screen and (max-width: 450px) {
+  .estilos-carta .estilos-imagenes .imagen-carta {
+    width: 350px;
+    height: 550px;
+  }
+}
+.estilos-carta .pie-carta {
+  background-color: #41d8bf;
+}
+
+.imageLogo {
+  width: 55px;
+  padding: 10px;
+}
+
+.elementos-carta {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagen-terapia {
+  background-image: url(https://st.depositphotos.com/1004026/4913/v/450/depositphotos_49131133-stock-illustration-seamless-pattern.jpg);
+}
+.imagen-terapia .imagen-quinta {
+  width: 550px;
+  margin-left: 450px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+@media screen and (max-width: 450px) {
+  .imagen-terapia .imagen-quinta {
+    width: 300px;
+    margin-left: 80px;
+  }
+}
+
+.titulo-accesorio {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 55px;
+  margin-bottom: 65px;
+  margin-left: 35px;
+}
+
+.parrafo-explicativo {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+.estilos-carta {
+  background-color: #ededed;
+}
+.estilos-carta .estilos-imagenes {
+  box-shadow: 7px 4px 19px -2px rgba(59, 80, 178, 0.73);
+  -webkit-box-shadow: 7px 4px 19px -2px rgba(59, 80, 178, 0.73);
+  -moz-box-shadow: 7px 4px 19px -2px rgba(59, 80, 178, 0.73);
+}
+.estilos-carta .estilos-imagenes .tarot-foto {
+  height: 215px;
+}
+@media screen and (max-width: 450px) {
+  .estilos-carta .estilos-imagenes .tarot-foto {
+    width: 450px;
+    height: 550px;
+  }
+}
+.estilos-carta .pie-carta {
+  background-color: #41d8bf;
+}
+
+.imageLogo {
+  width: 55px;
+  padding: 10px;
+}
+
+.elementos-carta {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagen-terapia {
+  background-image: url(https://st.depositphotos.com/1004026/4913/v/450/depositphotos_49131133-stock-illustration-seamless-pattern.jpg);
+}
+.imagen-terapia .imagen-roca {
+  width: 350px;
+  margin-left: 550px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+@media screen and (max-width: 450px) {
+  .imagen-terapia .imagen-roca {
+    width: 280px;
+    margin-left: 90px;
+  }
+}
+
+.titulo-accesorio {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 55px;
+  margin-bottom: 65px;
+  margin-left: 35px;
+}
+
+.parrafo-explicativo {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+.estilos-carta {
+  background-color: #ededed;
+}
+.estilos-carta .estilos-imagenes {
+  box-shadow: 7px 4px 19px -2px rgba(59, 80, 178, 0.73);
+  -webkit-box-shadow: 7px 4px 19px -2px rgba(59, 80, 178, 0.73);
+  -moz-box-shadow: 7px 4px 19px -2px rgba(59, 80, 178, 0.73);
+}
+.estilos-carta .estilos-imagenes .imagen-carta {
+  height: 215px;
+}
+.estilos-carta .pie-carta {
+  background-color: #41d8bf;
+}
+
+.imageLogo {
+  width: 55px;
+  padding: 10px;
+}
+
+.elementos-carta {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagen-terapia {
+  background-image: url(https://st.depositphotos.com/1004026/4913/v/450/depositphotos_49131133-stock-illustration-seamless-pattern.jpg);
+}
+.imagen-terapia .imagen-cele {
+  width: 350px;
+  margin-left: 550px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+@media screen and (max-width: 450px) {
+  .imagen-terapia .imagen-cele {
+    width: 280px;
+    margin-left: 90px;
+  }
+}
+
+.titulo-accesorio {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 55px;
+  margin-bottom: 65px;
+  margin-left: 35px;
+}
+
+.parrafo-explicativo {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+.parrafo-siguiente {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  margin-bottom: 65px;
+}
+
+.imageLogo {
+  width: 55px;
+  padding: 10px;
+}
+
+.elementos-carta {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mapa-contenedor {
+  margin-left: 35px;
+  margin-bottom: 35px;
+}
+@media screen and (max-width: 450px) {
+  .mapa-contenedor {
+    margin-left: 15px;
+  }
+}
+
+.div-contenedor {
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+}
+.div-contenedor .logo-yug {
+  width: 150px;
+}
+@media screen and (max-width: 450px) {
+  .div-contenedor .logo-yug {
+    width: 100px;
+  }
+}
+
+.fondo-nav {
+  background-color: #2f89b3;
+  padding-left: 350px;
+}
+@media screen and (max-width: 450px) {
+  .fondo-nav {
+    padding-left: 100px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

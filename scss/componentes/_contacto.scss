@@ -1,0 +1,58 @@
+.imagen-terapia {
+    background-image: url(https://st.depositphotos.com/1004026/4913/v/450/depositphotos_49131133-stock-illustration-seamless-pattern.jpg);
+
+.imagen-cele {
+    width: 350px;
+    margin-left: 550px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    @include mobile {
+        width: 280px;
+        margin-left: 90px;
+    }
+}
+
+}
+.titulo-accesorio {
+    color: nth($colores, 1);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 55px;
+    margin-bottom: 65px;
+    margin-left: 35px;
+}
+
+.parrafo-explicativo {
+    color: nth($colores, 1);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+.parrafo-siguiente {
+    color: nth($colores, 1);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-bottom: 65px;
+}
+
+.imageLogo {
+    width: 55px;
+    padding: 10px;
+}
+
+.elementos-carta {
+    display: flex;
+    justify-content: space-around;
+}
+.mapa-contenedor{
+    margin-left: 35px;
+    margin-bottom: 35px;
+
+    @include mobile {
+        margin-left: 15px;
+    }
+}
